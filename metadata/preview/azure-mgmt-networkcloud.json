@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-networkcloud",
-  "Version": "3.0.0b2",
-  "DevVersion": null,
+  "Version": "3.0.0a20260707001",
+  "DevVersion": "3.0.0a20260707001",
   "DirectoryPath": "sdk/networkcloud/azure-mgmt-networkcloud",
   "ServiceDirectory": "networkcloud",
   "ReadMePath": "sdk/networkcloud/azure-mgmt-networkcloud/README.md",
@@ -16,11 +16,11 @@
     ""
   ],
   "ArtifactDetails": {
-    "name": "azure-mgmt-networkcloud",
     "triggeringPaths": [
       "/sdk/networkcloud/ci.yml"
     ],
-    "safeName": "azuremgmtnetworkcloud"
+    "safeName": "azuremgmtnetworkcloud",
+    "name": "azure-mgmt-networkcloud"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
