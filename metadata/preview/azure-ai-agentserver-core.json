@@ -1,7 +1,7 @@
 {
   "Name": "azure-ai-agentserver-core",
-  "Version": "2.0.0a20260707001",
-  "DevVersion": "2.0.0a20260707001",
+  "Version": "2.0.0a20260707002",
+  "DevVersion": "2.0.0a20260707002",
   "DirectoryPath": "sdk/agentserver/azure-ai-agentserver-core",
   "ServiceDirectory": "agentserver",
   "ReadMePath": "sdk/agentserver/azure-ai-agentserver-core/README.md",
@@ -26,9 +26,9 @@
     "CIMatrixConfigs": [
       {
         "Path": "sdk/agentserver/platform-matrix.json",
-        "Selection": "sparse",
         "Name": "agentserver",
-        "GenerateVMJobs": true
+        "GenerateVMJobs": true,
+        "Selection": "sparse"
       }
     ]
   },
