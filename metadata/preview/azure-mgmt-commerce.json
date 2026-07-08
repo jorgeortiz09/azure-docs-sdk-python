@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-commerce",
-  "Version": "6.1.0b2",
-  "DevVersion": null,
+  "Version": "6.1.0a20260708003",
+  "DevVersion": "6.1.0a20260708003",
   "DirectoryPath": "sdk/commerce/azure-mgmt-commerce",
   "ServiceDirectory": "commerce",
   "ReadMePath": "sdk/commerce/azure-mgmt-commerce/README.md",
@@ -10,16 +10,16 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-mgmt-commerce",
-  "ReleaseStatus": "2026-03-10",
+  "ReleaseStatus": "2026-07-07",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     ""
   ],
   "ArtifactDetails": {
+    "safeName": "azuremgmtcommerce",
     "triggeringPaths": [
       "/sdk/commerce/ci.yml"
     ],
-    "safeName": "azuremgmtcommerce",
     "name": "azure-mgmt-commerce"
   },
   "CIParameters": {
