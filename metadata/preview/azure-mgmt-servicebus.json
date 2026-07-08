@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-servicebus",
-  "Version": "10.0.0b1",
-  "DevVersion": null,
+  "Version": "10.0.0a20260708003",
+  "DevVersion": "10.0.0a20260708003",
   "DirectoryPath": "sdk/servicebus/azure-mgmt-servicebus",
   "ServiceDirectory": "servicebus",
   "ReadMePath": "sdk/servicebus/azure-mgmt-servicebus/README.md",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-mgmt-servicebus",
-  "ReleaseStatus": "2025-07-15",
+  "ReleaseStatus": "2026-07-07",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     ""
   ],
   "ArtifactDetails": {
     "name": "azure-mgmt-servicebus",
+    "safeName": "azuremgmtservicebus",
     "triggeringPaths": [
       "/sdk/servicebus/ci.yml"
-    ],
-    "safeName": "azuremgmtservicebus"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus",
   "Namespaces": [
     "azure.mgmt.servicebus"
   ]
