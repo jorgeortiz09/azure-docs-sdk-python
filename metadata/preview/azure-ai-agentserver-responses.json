@@ -1,7 +1,7 @@
 {
   "Name": "azure-ai-agentserver-responses",
-  "Version": "1.0.0b8",
-  "DevVersion": null,
+  "Version": "1.0.0a20260709001",
+  "DevVersion": "1.0.0a20260709001",
   "DirectoryPath": "sdk/agentserver/azure-ai-agentserver-responses",
   "ServiceDirectory": "agentserver",
   "ReadMePath": "sdk/agentserver/azure-ai-agentserver-responses/README.md",
@@ -16,18 +16,18 @@
     ""
   ],
   "ArtifactDetails": {
+    "safeName": "azureaiagentserverresponses",
     "triggeringPaths": [
       "/sdk/agentserver/ci.yml"
     ],
-    "name": "azure-ai-agentserver-responses",
-    "safeName": "azureaiagentserverresponses"
+    "name": "azure-ai-agentserver-responses"
   },
   "CIParameters": {
     "CIMatrixConfigs": [
       {
+        "Path": "sdk/agentserver/platform-matrix.json",
         "GenerateVMJobs": true,
         "Name": "agentserver",
-        "Path": "sdk/agentserver/platform-matrix.json",
         "Selection": "sparse"
       }
     ]
