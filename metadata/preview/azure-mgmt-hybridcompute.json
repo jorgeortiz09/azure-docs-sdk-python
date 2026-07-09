@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-hybridcompute",
-  "Version": "9.1.0b3",
-  "DevVersion": null,
+  "Version": "9.1.0a20260709001",
+  "DevVersion": "9.1.0a20260709001",
   "DirectoryPath": "sdk/hybridcompute/azure-mgmt-hybridcompute",
   "ServiceDirectory": "hybridcompute",
   "ReadMePath": "sdk/hybridcompute/azure-mgmt-hybridcompute/README.md",
@@ -10,16 +10,16 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-mgmt-hybridcompute",
-  "ReleaseStatus": "2026-06-03",
+  "ReleaseStatus": "2026-07-07",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     ""
   ],
   "ArtifactDetails": {
+    "name": "azure-mgmt-hybridcompute",
     "triggeringPaths": [
       "/sdk/hybridcompute/ci.yml"
     ],
-    "name": "azure-mgmt-hybridcompute",
     "safeName": "azuremgmthybridcompute"
   },
   "CIParameters": {
