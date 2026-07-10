@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-databox",
-  "Version": "4.0.0b1",
-  "DevVersion": null,
+  "Version": "4.0.0a20260709001",
+  "DevVersion": "4.0.0a20260709001",
   "DirectoryPath": "sdk/databox/azure-mgmt-databox",
   "ServiceDirectory": "databox",
   "ReadMePath": "sdk/databox/azure-mgmt-databox/README.md",
@@ -16,11 +16,11 @@
     ""
   ],
   "ArtifactDetails": {
+    "safeName": "azuremgmtdatabox",
     "name": "azure-mgmt-databox",
     "triggeringPaths": [
       "/sdk/databox/ci.yml"
-    ],
-    "safeName": "azuremgmtdatabox"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": []
