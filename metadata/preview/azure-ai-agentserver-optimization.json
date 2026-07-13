@@ -1,7 +1,7 @@
 {
   "Name": "azure-ai-agentserver-optimization",
-  "Version": "1.0.0a20260713001",
-  "DevVersion": "1.0.0a20260713001",
+  "Version": "1.0.0a20260713002",
+  "DevVersion": "1.0.0a20260713002",
   "DirectoryPath": "sdk/agentserver/azure-ai-agentserver-optimization",
   "ServiceDirectory": "agentserver",
   "ReadMePath": "sdk/agentserver/azure-ai-agentserver-optimization/README.md",
@@ -16,17 +16,17 @@
     ""
   ],
   "ArtifactDetails": {
-    "safeName": "azureaiagentserveroptimization",
-    "name": "azure-ai-agentserver-optimization",
     "triggeringPaths": [
       "/sdk/agentserver/ci.yml"
-    ]
+    ],
+    "safeName": "azureaiagentserveroptimization",
+    "name": "azure-ai-agentserver-optimization"
   },
   "CIParameters": {
     "CIMatrixConfigs": [
       {
-        "Selection": "sparse",
         "GenerateVMJobs": true,
+        "Selection": "sparse",
         "Name": "agentserver",
         "Path": "sdk/agentserver/platform-matrix.json"
       }
