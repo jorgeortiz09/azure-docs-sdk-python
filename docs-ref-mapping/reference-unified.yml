@@ -22,7 +22,7 @@
         href: ~/docs-ref-services/{moniker}/mgmt-agricultureplatform-readme.md
         children:
         - azure.mgmt.agricultureplatform
-  - name: Agrifood
+  - name: AgriFood
     href: ~/docs-ref-services/{moniker}/agrifood.md
     landingPageType: Service
     items:
@@ -46,6 +46,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-devhub-readme.md
         children:
         - azure.mgmt.devhub
+  - name: Alertprocessingrules
+    href: ~/docs-ref-services/{moniker}/alertprocessingrules.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Alertprocessingrules
+        href: ~/docs-ref-services/{moniker}/mgmt-alertprocessingrules-readme.md
+        children:
+        - azure.mgmt.alertprocessingrules
   - name: Alerts Management
     href: ~/docs-ref-services/{moniker}/alerts-management.md
     landingPageType: Service
@@ -443,7 +453,7 @@
     - name: Question Answering Authoring
       href: ~/docs-ref-services/{moniker}/ai-language-questionanswering-authoring-readme.md
       children:
-      - azure.ai.language.questionanswering.authoring
+      - azure.ai.language.questionanswering
     - name: Personalizer
       href: ~/docs-ref-services/{moniker}/ai-personalizer-readme.md
       children:
@@ -1926,6 +1936,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-maps-readme.md
         children:
         - azure.mgmt.maps
+  - name: Marketplace
+    href: ~/docs-ref-services/{moniker}/marketplace.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Marketplace
+        href: ~/docs-ref-services/{moniker}/mgmt-marketplace-readme.md
+        children:
+        - azure.mgmt.marketplace
   - name: Marketplace Ordering
     href: ~/docs-ref-services/{moniker}/marketplace-ordering.md
     landingPageType: Service
@@ -2396,6 +2416,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-prometheusrulegroups-readme.md
         children:
         - azure.mgmt.prometheusrulegroups
+  - name: Providerhub
+    href: ~/docs-ref-services/{moniker}/providerhub.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Providerhub
+        href: ~/docs-ref-services/{moniker}/mgmt-providerhub-readme.md
+        children:
+        - azure.mgmt.providerhub
   - name: Purestorageblock
     href: ~/docs-ref-services/{moniker}/purestorageblock.md
     landingPageType: Service
@@ -2739,7 +2769,6 @@
       - name: Resource Management - Resources
         href: ~/docs-ref-services/{moniker}/mgmt-resource-readme.md
         children:
-        - azure.mgmt.resource
         - azure.mgmt.resource.resources
   - name: Scheduler
     href: ~/docs-ref-services/{moniker}/scheduler.md
